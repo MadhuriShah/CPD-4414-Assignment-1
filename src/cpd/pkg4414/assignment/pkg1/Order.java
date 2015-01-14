@@ -79,6 +79,10 @@ public class Order {
         this.timeFulfilled = timeFulfilled;
         this.notes = notes;
     }
+
+    public Order() {
+    }
+    
     
     
 }
