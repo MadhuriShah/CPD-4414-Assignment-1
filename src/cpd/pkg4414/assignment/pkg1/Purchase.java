@@ -11,7 +11,7 @@ package cpd.pkg4414.assignment.pkg1;
  * @author C0648301
  */
 class Purchase {
-        private String product_id;
+    private String product_id;
     private int quantity;
     
     public Purchase (String product_id, int quantity){
@@ -33,6 +33,9 @@ class Purchase {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public Purchase() {
     }
     
 }
